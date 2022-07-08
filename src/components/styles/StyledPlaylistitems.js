@@ -3,8 +3,8 @@ import styled from "styled-components";
 const StyledPlaylistitems = styled.div`
   padding: 0 20px 0 20px;
   overflow-y: auto;
-  height: 28vw;
-  max-height: 500px;
+  height: 26vw;
+  max-height: 380px;
 
   /* width */
   ::-webkit-scrollbar {

@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
 import Video from '../Video';
 import Playlist from './Playlist';
 import { ThemeProvider } from "styled-components";
 import StyledPlayer from '../styles/StyledPlayer';
+import React, { useState, useEffect } from "react";
 
 const theme = {
     bgcolor: '#353535',
@@ -19,7 +19,7 @@ const themeLight = {
     bgcolorItem: '#fff',
     bgcolorItemActive: '#80a7b1',
     bgcolorPlayed: '#7d9979',
-    border: '1px solid #353535',
+    border: 'none',
     borderPlayed: 'none',
     color: '#353535',
 }

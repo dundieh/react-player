@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-const StyledWbnPlayer = styled.div`
+const StyledPlayer = styled.div`
   background: ${props => props.theme.bgcolor}; /* #353535; */
-  border: ${props => props.theme.border};
   max-width: 1800px;
   margin: 0 auto;
   display: -webkit-box;
@@ -18,4 +17,4 @@ const StyledWbnPlayer = styled.div`
   }
 `;
 
-export default StyledWbnPlayer;
+export default StyledPlayer;
